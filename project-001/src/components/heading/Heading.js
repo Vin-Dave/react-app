@@ -5,6 +5,7 @@ class Heading extends React.Component {
   constructor() {
     super();
     this.state = { link_a: "Home" };
+    this.state = { link_b: "Home2" };
   }
   render() {
     return (
@@ -13,7 +14,7 @@ class Heading extends React.Component {
           <ul className="navigation">
             <li>{this.state.link_a}</li>
             <li>Page 1</li>
-            <li>Page 2</li>
+            <li>Page </li>
             <li>About Me</li>
           </ul>
         </nav>
