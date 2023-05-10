@@ -4,15 +4,17 @@ import "./heading.css";
 class Heading extends React.Component {
   constructor() {
     super();
-    this.state = { link_a: "Home" };
-    this.state = { link_b: "Home2" };
+    this.state = { link: "Home" };
   }
   render() {
     return (
       <div>
         <nav>
+          <h2 style={{ color: "blue", backgroundColor: "silver" }}>
+            {this.props.headerTitle}
+          </h2>
           <ul className="navigation">
-            <li>{this.state.link_a}</li>
+            <li>{this.state.link}</li>
             <li>Page 1</li>
             <li>Page </li>
             <li>About Me</li>
