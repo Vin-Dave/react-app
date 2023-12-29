@@ -5,6 +5,7 @@ import Logo from "../icon/logo.svg";
 
 import { useState } from "react";
 import { Link } from "react-router-dom";
+
 import {
   faFacebook,
   faGithub,
@@ -19,7 +20,7 @@ export function Navbar() {
   };
   console.log(showNav);
   return (
-    <div className="fixed w-full h-[85px]  flex justify-between items-center px-4 bg-[#292f53] text-gray-300">
+    <div className="fixed w-full h-[85px]  flex justify-between items-center px-4 bg-[#121a26] text-gray-300">
       <div>
         <img src={Logo} alt="Logo DavyFi " style={{ width: "200px" }} />
       </div>
