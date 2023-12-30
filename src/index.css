@@ -7,6 +7,9 @@
 * {
   font-family: "Nunito", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 @layer base {
   li {
@@ -14,3 +17,18 @@
     @apply cursor-pointer;
   }
 }
+.box-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+
+.box-div:hover {
+  background-image: linear-gradient(
+    to top,
+    rgba(241, 121, 33, 1),
+    rgba(241, 121, 33, 0.8)
+  ) !important;
+}
+/* linear-gradient(rgba(0, 0, 0, 0.5), #7140bf) */
