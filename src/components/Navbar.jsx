@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
 
 import Logo from "../icon/logo.svg";
 
@@ -11,6 +10,7 @@ import {
   faGithub,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
 
 export function Navbar() {
   const [showNav, setshowNav] = useState(false);
